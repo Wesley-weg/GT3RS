@@ -18,7 +18,7 @@ li{
     display: inline;
     padding-top: 5%;
 }
-.nav{
+nav{
     font-size: 1.5em;
     background-color: black;
     margin: 0;
@@ -28,18 +28,18 @@ li{
     box-shadow: 0 0 2em 0;
     display: flex;
 }
-.nav a{
+nav a{
     list-style-type: none;
     text-align: center;
     color: white;
     padding: 1em;
 }
-.nav img{
+nav img{
     width: 3em;
     height: 3em;
 
 }
-.nav :hover{
+nav :hover{
 color: red;
 transition: 0.5s;
 }
@@ -73,7 +73,7 @@ transition: 0.5s;
     align-self: center;
     box-shadow: 0 0 0.4em 0 black;
 }
-.gtinfo {
+article {
     height: auto;
     width: auto;
     opacity: 90%;
@@ -82,36 +82,37 @@ transition: 0.5s;
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 6rem;
     background-color: black;
     display: flex;
-    box-shadow: 0 0 0.4em 0 black
+    box-shadow: 0 0 0.4em 0 black;
+    margin-bottom: 2rem;
+    align-self: center;
 }
 
-.gtinfo img{
+article img{
     margin-top: 5rem;
-    margin-left: 5rem;
-    margin-right: 3rem;
-    height: 20%;
-    width: 30%;
+    height: 50%;
+    width: 40%;
+    
 }
-.whitebox{
-    height: 8em;
-}
-.contact {
+
+footer {
     height: auto;
     background-color: black;
     color: white;
     opacity: 90%;
     padding: 2rem;
     text-align: center;
+    margin-top: 11rem;
+    justify-content: bottom;
 }
-.contact p {
+footer p {
     margin: 0;
 }
 .gallery {
     display: flex;
     margin: 0;
+    margin-top: 2rem;
     align-items: center;
     justify-content: center;
     transition: 1s;
